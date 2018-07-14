@@ -5,6 +5,10 @@
 #wrapper{
 	margin: 5px 5px 0 5px;
 	background: url(bg.png) repeat;
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 3px 4px 3px grey;
 }
 #header{
 	padding-top: 10px;
@@ -108,7 +112,7 @@ span{
 .ad{
 	position: absolute;
 	right: 5px;
-	top:140px;
+	top:150px;
 	width: 33%;
 	background-color: #70a7dd;
 	height: 100px;
