@@ -138,6 +138,8 @@ ul li{
 }
 #contact h2{
 	text-align: center;
+	font-family: mySecondFont;
+	width: 300px;
 }
 #contact:target{
 	height: 210px;
@@ -146,7 +148,7 @@ table tr{
 	margin-bottom: 5px;
 }
 input[type=text]{
-	background-color: lightgrey;
+	background-color: lightgray;
 	border: none;
 	border-bottom:0.5px grey dotted;
 }
