@@ -1,0 +1,22 @@
+table,tr,td,th{
+	border: 1px solid black;
+}
+td,th{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+	box-shadow: 5px 7px 5px grey;
+}
+.a123 th{
+	width: 400px;
+	background: aqua;
+}
+.blue{
+	background-color: aqua;
+}
+tbody tr:nth-child(even){
+	background: lightgreen;
+}
