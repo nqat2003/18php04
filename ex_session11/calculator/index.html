@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A new beginning</title>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="author" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="imgs/main_icon.png">
+</head>
+<body>
+	<div id="wrapper">
+		<p id="calculation" oncuechange="showResult()"></p>
+		<p id="result"></p>
+		<button id="(" onclick="getFormula('(')">(</button>
+		<button id=")" onclick="getFormula(')')">)</button>
+		<button id="%" onclick="getFormula('%')">%</button>
+		<button id="AC" onclick="resetFormula()">AC</button>
+		<button id="7" onclick="getFormula('7')">7</button>
+		<button id="8" onclick="getFormula('8')">8</button>
+		<button id="9" onclick="getFormula('9')">9</button>
+		<button id="/" onclick="getFormula('/')">/</button>
+		<button id="4" onclick="getFormula('4')">4</button>
+		<button id="5" onclick="getFormula('5')">5</button>
+		<button id="6" onclick="getFormula('6')">6</button>
+		<button id="*" onclick="getFormula('*')">X</button>
+		<button id="1" onclick="getFormula('1')">1</button>
+		<button id="2" onclick="getFormula('2')">2</button>
+		<button id="3" onclick="getFormula('3')">3</button>
+		<button id="+" onclick="getFormula('+')">+</button>
+		<button id="0" onclick="getFormula('0')">0</button>
+		<button id="." onclick="getFormula('.')">.</button>
+		<button id="=" onclick="showResult()">=</button>
+		<button id="-" onclick="getFormula('-')">-</button>
+	</div>
+	<script type="text/javascript" src="common.js"></script>
+</body>
+</html>
