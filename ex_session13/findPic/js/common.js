@@ -16,7 +16,7 @@ function pic(number,id){
 		console.log("After if <=1 " + i);
 	}else{
 		// compare two pictures are being show
-		if (aNum[0] == aNum[1]){
+		if (aNum[0] == aNum[1] && aId[0] != aId[1]){
 			i=0;
 		}else{
 			//hide pictures
