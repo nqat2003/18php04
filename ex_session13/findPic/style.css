@@ -1,0 +1,28 @@
+#wrapper{
+	width: 417px;
+	margin:0 auto;
+	background: black;
+	box-shadow: 3px 3px 4px black;
+}
+.pic,.pic img{
+	width: 100px;
+	height: 100px;
+}
+img{
+	background: white;
+}
+.pic:hover{
+	cursor: pointer;
+}
+.pic{
+	background: green;
+	float: left;
+	border: 1px solid orange;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	margin: 1px;
+}
+.clear{
+	clear: both;
+}
