@@ -1,0 +1,12 @@
+#wrapper{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+input[type=submit]{
+	width: 60px;
+}
+#answer{
+	display:none;
+	color: red;
+}

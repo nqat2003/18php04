@@ -1,0 +1,48 @@
+#wrapper{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+#runzone{
+	border: 1px solid black;
+	background: grey;
+	margin-bottom: 10px;
+	height: 110px;
+	position: relative;
+}
+input[type=submit]{
+	width: 60px;
+}
+#boy img,#girl img{
+	width: 60px;
+	height: 100px;
+	line-height: 200px;
+}
+#boy{
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	margin-right: 10px;
+}
+#girl{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-left: 10px;
+}
+#flower img{
+	width: 30px;
+	height: 30px;
+}
+span{
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 235px;
+	z-index: 9999;
+}
+.clear{
+	clear: both;
+}
